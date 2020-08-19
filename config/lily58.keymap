@@ -23,7 +23,7 @@
                    &kp LALT  &kp LGUI  &mo 1     &kp SPC                      &kp SPC   &mo 2     &kp RGUI  &kp RALT
 			>;
 
-            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
+            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD>;
 		};
 
 		lower_layer {
