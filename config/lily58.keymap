@@ -30,18 +30,18 @@
 // ------------------------------------------------------------------------------------------------------------
 // |   =   |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |   -   |
 // |  "["  |  `  |PG UP|  ^   |PG DN |   K  |                   |      |       |   ^   |      |       |  "|"  |
-// |  CAPS |     |  <- |  v   |  ->  |   J  |                   |      |   <-  |   v   |  ->  |       | ENTER |
+// |  CAPS | DEL |  <- |  v   |  ->  |   J  |                   |      |   <-  |   v   |  ->  |       | ENTER |
 // |       |     |     |      |      |   L  |   F11  |  |  F12  |      |       |       |      |       |       |
 //                     |      |      |      |  ENTER |  |       |      |       |       |
 			bindings = <
 &kp EQL  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                       &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp MINUS
 &kp LBKT &kp GRAV  &kp PGUP  &kp UARW  &kp PGDN  &kp K                        &trans    &trans    &kp UARW  &trans    &trans    &kp PIPE
-&kp CLCK &trans    &kp LARW  &kp DARW  &kp RARW  &kp J                        &trans    &kp LARW  &kp DARW  &kp RARW  &trans    &kp RET
+&kp CLCK &kp DEL   &kp LARW  &kp DARW  &kp RARW  &kp J                        &trans    &kp LARW  &kp DARW  &kp RARW  &trans    &kp RET
 &trans   &trans    &trans    &trans    &trans    &kp L     &kp F11  &kp F12   &trans    &trans    &trans    &trans    &trans    &trans
                    &trans    &trans    &trans    &kp RET                      &trans    &trans    &trans    &trans
 			>;
 
-            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
+            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD>;
 		};
 
 		raise_layer {
@@ -59,7 +59,7 @@
                    &kp KPLS    &kp NUM_0 &kp DOT   &kp RET                      &trans    &trans    &trans    &trans
 			>;
 
-            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
+            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD>;
 		};
 	};
 };
