@@ -23,7 +23,7 @@
                    &kp LALT  &kp LGUI  &mo 1     &kp SPC                      &kp SPC   &mo 2     &kp RGUI  &kp RALT
 			>;
 
-            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD>;
+            sensor-bindings = <&inc_dec_kp SCLK PAUS>;
 		};
 
 		lower_layer {
@@ -41,7 +41,7 @@
                    &trans    &trans    &trans    &kp RET                      &trans    &trans    &trans    &trans
 			>;
 
-            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD>;
+            sensor-bindings = <&inc_dec_kp SCLK PAUS>;
 		};
 
 		raise_layer {
@@ -59,7 +59,7 @@
                    &kp KPLS    &kp NUM_0 &kp DOT   &kp RET                      &trans    &trans    &trans    &trans
 			>;
 
-            sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD>;
+            sensor-bindings = <&inc_dec_kp SCLK PAUS>;
 		};
 	};
 };
