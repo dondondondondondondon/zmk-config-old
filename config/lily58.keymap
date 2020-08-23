@@ -37,7 +37,7 @@
 &kp EQL  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                       &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp MINUS
 &kp LBKT &kp GRAV  &kp PGUP  &kp UARW  &kp PGDN  &kp K                        &trans    &trans    &kp UARW  &trans    &trans    &kp PIPE
 &kp CLCK &kp DEL   &kp LARW  &kp DARW  &kp RARW  &kp J                        &trans    &kp LARW  &kp DARW  &kp RARW  &trans    &kp RET
-&trans &cp M_VOLU &cp M_VOLD &kp LBKT  &kp RBKT  &kp L     &kp F11  &kp F12   &trans    &trans    &trans    &trans    &trans    &trans
+&trans   &kp SCLK  &kp PAUS  &kp LBKT  &kp RBKT  &kp L     &kp F11  &kp F12   &trans    &trans    &trans    &trans    &trans    &trans
                    &trans    &trans    &trans    &kp RET                      &trans    &trans    &trans    &trans
 			>;
 
