@@ -23,7 +23,7 @@
                    &kp LALT  &kp LGUI  &mo 1     &kp SPC                      &kp SPC   &mo 2     &kp RGUI  &kp RALT
 			>;
 
-            sensor-bindings = <&enckp PAUS SCLK>;
+            sensor-bindings = <&inc_dec_kp PAUS SCLK>;
 		};
 
 		lower_layer {
