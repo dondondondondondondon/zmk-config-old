@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
@@ -31,13 +32,13 @@
 // |   =   |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |   -   |
 // |  "["  |  `  |PG UP|  ^   |PG DN |   K  |                   |      |       |   ^   |      |       |  "|"  |
 // |  CAPS | DEL |  <- |  v   |  ->  |   J  |                   |      |   <-  |   v   |  ->  |       | ENTER |
-// |  CTRL |VOL D|VOL U| "["  | "]"  | BKSP |   F11  |  |  F12  |      |       |       |      |       |       |
+// |  CTRL |VOL D|VOL U| "["  | "]"  | BKSP |   USB  |  |  F12  |      |       |       |      |       |       |
 //                     |      |      |      |  ENTER |  |       |      |       |       |
 			bindings = <
 &kp EQUAL &kp F1    &kp F2     &kp F   &kp F4     &kp F5                       &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp MINUS
 &kp LBKT  &kp GRAVE &kp PG_UP  &kp UP  &kp PG_DN  &kp K                        &trans    &trans    &kp UP  &trans    &trans    &kp PIPE
 &kp CLCK  &kp DEL   &kp LEFT  &kp DOWN  &kp RIGHT  &kp J                        &trans    &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &kp RET
-&kp LCTRL &kp SLCK  &kp PAUSE_BREAK  &kp LBKT  &kp RBKT  &kp BSPC  &kp F11  &kp F12   &trans    &trans    &trans    &trans    &trans    &trans
+&kp LCTRL &kp SLCK  &kp PAUSE_BREAK  &kp LBKT  &kp RBKT  &kp BSPC  &out OUT_USB  &kp F12   &trans    &trans    &trans    &trans    &trans    &trans
                    &trans    &trans    &trans    &kp RET                      &trans    &trans    &trans    &trans
 			>;
 
